@@ -1,0 +1,50 @@
+[package]
+name = "Rust-Tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name="1_Types"
+path="src/1_Types.rs"
+[[bin]]
+name="2_mutable"
+path="src/2_mutable.rs"
+[[bin]]
+name="3_strings"
+path="src/3_strings.rs"
+[[bin]]
+name="4_ref"
+path="src/4_ref.rs"
+[[bin]]
+name="5_functions"
+path="src/5_functions.rs"
+[[bin]]
+name="6_arrays"
+path="src/6_arrays.rs"
+[[bin]]
+name="7_vector"
+path="src/7_vector.rs"
+[[bin]]
+name="8_if_else"
+path="src/8_if_else.rs"
+[[bin]]
+name="9_structs"
+path="src/9_structs.rs"
+[[bin]]
+name="10_enums"
+path="src/10_enums.rs"
+[[bin]]
+name="11_loops"
+path="src/11_loops.rs"
+[[bin]]
+name="12_impl"
+path="src/12_impl.rs"
+[[bin]]
+name="13_traits"
+path="src/13_traits.rs"
+[[bin]]
+name="14_bonus"
+path="src/14_bonus.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
